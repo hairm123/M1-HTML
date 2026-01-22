@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>average</title>
+    </head>
+    <body>
+        <form oninput="x.value=parseInt(marks1.value)+parseInt(marks2.value)+parseInt(marks3.value)/3">
+        <fieldset>
+            <legend>average calculator</legend>
+            <label>name</label>
+            <input type="text" id="name"><br>
+            <label>Marks</label><br>
+            <select>
+                <option value="maths">Maths</option>
+                <option value="science">science</option>
+                <option value="Ict">ICT</option>
+            </select>
+            <input type="number" id="marks1"><br>
+            <select>
+                <option value="maths">Maths</option>
+                <option value="science">science</option>
+                <option value="Ict">ICT</option>
+            </select>
+            <input type="number" id="marks2"><br>
+            <select>
+                <option value="maths">Maths</option>
+                <option value="science">science</option>
+                <option value="Ict">ICT</option>
+            </select>
+            <input type="number" id="marks3">
+        </fieldset>
+        average=<output name="x" for="marks1 marks2 marks3"></output>
+        </form>
+    </body>
+</html>
